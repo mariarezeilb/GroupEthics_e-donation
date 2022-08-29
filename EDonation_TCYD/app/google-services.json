@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584734747942",
+    "project_id": "e-donation-tcyd",
+    "storage_bucket": "e-donation-tcyd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584734747942:android:5c4eb59ae4c88f1bbbe5e7",
+        "android_client_info": {
+          "package_name": "com.example.e_donation_tcyd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584734747942-nkqi18uu88taq0rln5pflv5b7nh93gje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEgKyQ4J2btrFFQQSmVSegHvFoegZz0tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584734747942-nkqi18uu88taq0rln5pflv5b7nh93gje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
