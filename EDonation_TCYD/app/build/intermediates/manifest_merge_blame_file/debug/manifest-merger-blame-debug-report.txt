@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.e_donation_tcyd"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+17-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+18-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:8:5-33:19
+22        android:allowBackup="true"
+22-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\ca63bafdf51d6bae4aafbd35d5708bfd\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:10:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:11:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.EDonation_TCYD" >
+33-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:16:9-52
+34        <activity
+34-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:18:9-20:40
+35            android:name="com.example.e_donation_tcyd.UploadImage"
+35-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:19:13-40
+36            android:exported="false" />
+36-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:20:13-37
+37        <activity
+37-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:21:9-23:40
+38            android:name="com.example.e_donation_tcyd.UploadNotice"
+38-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:22:13-41
+39            android:exported="false" />
+39-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:23:13-37
+40        <activity
+40-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:24:9-32:20
+41            android:name="com.example.e_donation_tcyd.MainActivity"
+41-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:25:13-41
+42            android:exported="true" >
+42-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:26:13-36
+43            <intent-filter>
+43-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:27:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\BALDIVICIO\Documents\GitHub\GroupEthics_e-donation\EDonation_TCYD\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+54            <meta-data
+54-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+55-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-database:20.0.5] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8e8ffa75e7da306cc7fc0bb56529f269\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\dc6553c1774ffcc63d8e07887b81c8ea\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+58                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+58-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\dc6553c1774ffcc63d8e07887b81c8ea\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\dc6553c1774ffcc63d8e07887b81c8ea\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+61                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+61-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\8a9d1917cdb47b576de7768b89c3a856\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\cce18c34909c3ddaf69daf7839b64e5f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+64                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+64-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\cce18c34909c3ddaf69daf7839b64e5f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\cce18c34909c3ddaf69daf7839b64e5f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+66        </service>
+67
+68        <provider
+68-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+69            android:name="com.google.firebase.provider.FirebaseInitProvider"
+69-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+70            android:authorities="com.example.e_donation_tcyd.firebaseinitprovider"
+70-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+72            android:exported="false"
+72-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+73            android:initOrder="100" />
+73-->[com.google.firebase:firebase-common:20.1.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\35f0eb551b4e7bb8b084b31090713236\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\a97561c599a8481a6b4fbf4419382daf\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\a97561c599a8481a6b4fbf4419382daf\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\a97561c599a8481a6b4fbf4419382daf\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\a97561c599a8481a6b4fbf4419382daf\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+79
+80        <receiver
+80-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+81            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+81-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+82            android:enabled="true"
+82-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+84        </receiver>
+85
+86        <service
+86-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+87            android:name="com.google.android.gms.measurement.AppMeasurementService"
+87-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+89            android:exported="false" />
+89-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+90        <service
+90-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+91            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+91-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+94            android:permission="android.permission.BIND_JOB_SERVICE" />
+94-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2a9a84adc6fe62baf9f62011bb18e4bb\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\6904d14f4c41e8cb822c142e29226b58\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\6904d14f4c41e8cb822c142e29226b58\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\6904d14f4c41e8cb822c142e29226b58\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+99
+100        <provider
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+102            android:authorities="com.example.e_donation_tcyd.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\54379e6789c93551ed51b8c46d8fae38\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2180ea550ae768d5e3369a2e54b36134\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2180ea550ae768d5e3369a2e54b36134\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BALDIVICIO\.gradle\caches\transforms-3\2180ea550ae768d5e3369a2e54b36134\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+110        </provider>
+111    </application>
+112
+113</manifest>

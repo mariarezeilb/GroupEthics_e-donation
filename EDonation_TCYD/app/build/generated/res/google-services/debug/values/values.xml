@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">584734747942-nkqi18uu88taq0rln5pflv5b7nh93gje.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">584734747942</string>
+    <string name="google_api_key" translatable="false">AIzaSyAEgKyQ4J2btrFFQQSmVSegHvFoegZz0tM</string>
+    <string name="google_app_id" translatable="false">1:584734747942:android:5c4eb59ae4c88f1bbbe5e7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAEgKyQ4J2btrFFQQSmVSegHvFoegZz0tM</string>
+    <string name="google_storage_bucket" translatable="false">e-donation-tcyd.appspot.com</string>
+    <string name="project_id" translatable="false">e-donation-tcyd</string>
+</resources>

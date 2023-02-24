@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#0277bd</color>
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="green1">#00bfa5</color>
+    <color name="lightGray">#c1c1c1</color>
+    <color name="pink">#D242EC</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red2">#F73E7C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="textColor">#121212</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#ffb300</color>
+    <string name="app_name">E-Donation_TCYD</string>
+    <string name="default_web_client_id" translatable="false">584734747942-nkqi18uu88taq0rln5pflv5b7nh93gje.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">584734747942</string>
+    <string name="google_api_key" translatable="false">AIzaSyAEgKyQ4J2btrFFQQSmVSegHvFoegZz0tM</string>
+    <string name="google_app_id" translatable="false">1:584734747942:android:5c4eb59ae4c88f1bbbe5e7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAEgKyQ4J2btrFFQQSmVSegHvFoegZz0tM</string>
+    <string name="google_storage_bucket" translatable="false">e-donation-tcyd.appspot.com</string>
+    <string name="project_id" translatable="false">e-donation-tcyd</string>
+    <style name="Theme.EDonation_TCYD" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
